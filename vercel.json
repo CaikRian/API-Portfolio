@@ -8,7 +8,7 @@
 
     ],
     "routes": [
-      { "src": "/api/projects", "dest": "/app.js"  },
-      { "src": "/api/projects/:id", "dest": "/app.js" }
+      { "src": "/api/projects", "dest": "app.js"  },
+      { "src": "/api/projects/:id", "dest": "app.js" }
     ]
   }
